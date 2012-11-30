@@ -1,0 +1,200 @@
+/*Layout*/
+
+html {
+	margin: 0;
+	padding: 0;
+	background:url(../img/fondo.jpg);
+}
+
+ol{
+	font-size: 16px;
+	color: #fff;
+	line-height:35px;
+	margin-left: -35px;
+}
+
+body {
+	/*width: 940px;
+	margin: 0 auto;*/
+	font: 10pt/1.5em Helvetica,"Helvetica neue", Arial, sans-serif;
+}
+
+#cuerpo{
+	margin-left: auto;
+	margin-right: auto;
+	width: 940px;
+	
+}
+
+.imgcenter{
+	margin-left: 60px;
+	margin-right: auto;
+}
+
+/*HTML 5 specific*/
+header,section,article,aside,footer{
+	display: block;
+}
+
+h1 {
+	font: 32pt Helvetica,"Helvetica neue", Arial, sans-serif;
+	background: url(../images/header-bg.png) center top no-repeat;
+	text-align: center;
+	text-transform: uppercase;
+	color: #e5b7ad;
+	padding-top: 30px ;
+	text-shadow: 1px 1px 2px #fff; 
+}
+
+header{
+	width: 940px;
+	height: 228px;
+	/*margin-left:auto;
+	margin-right: auto;*/
+}
+
+.redes{
+	float: right;
+	margin-top:-270px;
+	width:132px;
+	height: 50px;
+	display: block;
+}
+
+.icon_twi{
+	position: relative;
+	left:850px;
+	margin-top:-270px;
+	background: url(../img/pinkstreet_twitter.png);
+	width: 32px;
+	height: 32px;
+	display: block;
+}
+
+.icon_face{
+	position: relative;
+	left:890px;
+	margin-top:-32px;
+	background: url(../img/pinkstreet_facebook.png);
+	width: 32px;
+	height: 32px;
+	display: block;
+}
+
+
+.fondo{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  background-color: #ca3274;
+  background-size: 100%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -ms-background-size: 100%;
+  -o-background-size: 100%;
+  width: 940px;
+  height: 200px;
+  opacity: 1;
+  border: 2px solid #ebc4cb;
+  border-radius: 14px;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  -o-border-radius: 14px;
+	
+}
+
+
+aside{
+	float: left;
+	width: 200px;
+	min-height: 480px;
+	background: url(../img/img_menu.jpg) center top no-repeat;
+	margin: 5px 0 20px 0;
+}
+
+section{
+	float: left;
+	width: 720px;
+	/*padding-left: 20px;
+	margin: 0 0 20px 0px;*/
+	border-left: 2px dotted #b2a497;
+	min-height: 480px;
+
+}
+
+article{
+	padding-top: 60px;
+	padding-left: 10px;
+}
+
+#contenedor{
+	background-color: #fff;
+	margin-top: 15px;
+	display: block;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  background-color: #FFFFFF;
+  background-size: 100%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -ms-background-size: 100%;
+  -o-background-size: 100%;
+  width: 940px;
+  min-height: 480px;
+  opacity: 1;
+  border: 2px solid #ab1355;
+  border-radius: 14px;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  -o-border-radius: 14px;
+}
+
+section h2 {
+	font: 14pt Helvetica,"Helvetica neue", Arial, sans-serif;
+	font-weight: lighter;
+	text-transform: uppercase;
+	color: #493831;
+	padding-bottom: 10px;
+	margin: 0;
+}
+
+footer{
+	clear:both !important;
+	text-align: center;
+	width: 100%;
+	height: 50px;
+	display: block;
+}
+
+old_footer{
+	clear:both !important;
+	width:920px;
+	height: 50px;
+	padding: 10px;
+	color:#200f08 ;
+	background:#ddd3bf;
+	
+	/*Opacity*/
+	filter:alpha(opacity=50); /* msie */  
+	-moz-opacity: 0.50; /* firefox 1.0 */  
+	-khtml-opacity: 0.50; /* webkit */  
+	opacity: 0.50; /* css 3 */
+
+	/*Gradient*/
+	background-image: -moz-linear-gradient(top, #ddd3bf, #bcae91); /* FF3.6 */
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #ddd3bf),color-stop(1, #bcae91)); /* Saf4+, Chrome *
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#ddd3bf', EndColorStr='#bcae91'); /* IE6,IE7 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#ddd3bf', EndColorStr='#bcae91')"; /* IE8 */
+
+	/*Round corners*/
+	-moz-border-radius: 12px; /* FF1+ */
+	-webkit-border-radius: 12px; /* Saf3+, Chrome */
+	border-radius: 12px; /* Opera 10.5, IE 9 */
+}
