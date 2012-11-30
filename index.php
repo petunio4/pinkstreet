@@ -33,10 +33,6 @@
 	</aside>
 	<section>
 	<article>
-	<!--<header>
-	<h2>Title</h2>
-	<p>content</p>
-	</header>-->
 	<p>Contenido</p>
 		<img src="img/comida.jpg" width="200px" height="250px" class="imgcenter"/>
 		<br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
