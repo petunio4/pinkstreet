@@ -27,7 +27,7 @@
 			<ol>Box Lunch Kinder</ol>
 			<ol>Tips de Nutrición</ol>
 			<ol>Boutique</ol>
-			<ol>Experiencias</ol>
+			<ol>Experiencia</ol>
 		</ul>
 		
 	</aside>
