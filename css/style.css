@@ -3,7 +3,7 @@
 html {
 	margin: 0;
 	padding: 0;
-	background:url(../img/fondo.jpg);
+	background:url(../img/fondo_pinkstreet.jpg);
 }
 
 ol{
@@ -61,25 +61,16 @@ header{
 	display: block;
 }
 
-.icon_twi{
-	position: relative;
-	left:850px;
-	margin-top:-270px;
-	background: url(../img/pinkstreet_twitter.png);
-	width: 32px;
-	height: 32px;
-	display: block;
-}
-
 .icon_face{
 	position: relative;
-	left:890px;
-	margin-top:-32px;
+	left:880px;
+	margin-top:-270px;
 	background: url(../img/pinkstreet_facebook.png);
 	width: 32px;
 	height: 32px;
 	display: block;
 }
+
 
 
 .fondo{
@@ -110,7 +101,7 @@ header{
 aside{
 	float: left;
 	width: 200px;
-	min-height: 480px;
+	min-height: 620px;
 	background: url(../img/img_menu.jpg) center top no-repeat;
 	margin: 5px 0 20px 0;
 }
