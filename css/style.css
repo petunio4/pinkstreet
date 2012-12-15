@@ -1,9 +1,16 @@
 /*Layout*/
-
+ @font-face { /*ESTE CODIGO LO QUE HACE ES IMPORTAR LEER Y DESIFARRA LOS ARCHIVOS DE LAS FUENTES SELECCIONADAS, SIN NECESIDAD DE ESTAR INSTALADA LA FUENTE EN EL SERVIDOR O EL EQUIPO, YA QUE LO TOMA DE LA MISMA CARPETA DEL SITIO, AQUI ETSOY EXPORTANDO LA FUENTE "JUICE"*/
+	font-family: 'JUICE';
+	src: url('JUICE_Light-webfont.eot');
+	src: url('JUICE_Light-webfont.eot?#iefix') format('embedded-opentype'), url('JUICE_Light-webfontt.woff') format('woff'), url('JUICE_Light-webfont.ttf') format('truetype'), url('JUICE_Light-webfont.svg#JUICE_Light-webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
 html {
 	margin: 0;
 	padding: 0;
 	background:url(../img/fondo_pinkstreet.jpg);
+	background-repeat: repeat
 }
 
 ol{
@@ -16,6 +23,7 @@ ol{
 body {
 	/*width: 940px;
 	margin: 0 auto;*/
+	/*font-family: 'JUICE', cursive;*/ /*sI FUNCIONA ESTE CODIGO PARA CAMBIAR LA FUENTE Y TOMAR LA QUE ESTA CARGADA EN LA CARPETA PERO EL TIPO DE FUENTE JUICE DEFORMA LA PAGINA*/
 	font: 10pt/1.5em Helvetica,"Helvetica neue", Arial, sans-serif;
 }
 
@@ -188,4 +196,11 @@ old_footer{
 	-moz-border-radius: 12px; /* FF1+ */
 	-webkit-border-radius: 12px; /* Saf3+, Chrome */
 	border-radius: 12px; /* Opera 10.5, IE 9 */
+
+}
+.texto{
+font-family: verdana, sans-serif;
+	font-size:14px;
+	text-align: justify;
+	color:#ca3474;/*color de fuente*/
 }
