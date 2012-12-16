@@ -7,6 +7,7 @@
 	<script type="text/javascript" src="js/modernizr.custom.68612.js"></script>
 	<link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
 	<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+	<link href="css/style_menu.css" rel="stylesheet" type="text/css" media="screen" />
 </head>
 <body>
 <div id="cuerpo">
