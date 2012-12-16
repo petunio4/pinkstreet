@@ -1,12 +1,3 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Menu Pink Street</title>
-<link href="css/style_menu.css" rel="stylesheet" type="text/css" media="screen" />
-</head>
-<body>
- <header>
     <nav>
       <ul id="nav">
        <li><a href="index.php" <?php if($_SERVER['PHP_SELF']== '/pinkstreet/index.php'){ ;?> class="current" <?php }?> >Inicio</a></li>
@@ -40,7 +31,3 @@
       </ul>
       
     </nav>
-  </header>
-
-</body>
-</html>
