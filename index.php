@@ -7,6 +7,7 @@
 	<script type="text/javascript" src="js/modernizr.custom.68612.js"></script>
 	<link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
 	<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+	<link href="css/style_menu.css" rel="stylesheet" type="text/css" media="screen" />
 </head>
 <body>
 <div id="cuerpo">
@@ -16,9 +17,7 @@
 </header>
 <div id="contenedor">
 	<aside>
-	<?php include_once 'menu.php';?>
-	
-		
+		<?php include_once 'menu.php';?>	
 	</aside>
 	<section>
 	<article>
@@ -32,7 +31,7 @@
 		
 		?>
 		<br />
-		<p class="texto">
+		<p class="texto margen">
 		"TE DAMOS LA BIENVENIDA A ESTE ESPACIO DEDICADO A CONSENTIRTE Y CONSENTIR A ESA PERSONA ESPECIAL PARA TI", esta pagina nace de tomar un delicioso y rico cafe con las amigas y preguntandonos porque nos olvidamos de esos detatalles que hacen la diferencia en tu cumpleaños, o aniversario o que tal en un dia comun donde solo queremos ser SORPRENDIDOS... por eso te dedicamos esta pagina que hace que seas diferente porque el <b>DETALLE SIEMPRE CUENTA</b>.
 		
 		</p>
