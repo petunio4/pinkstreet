@@ -33,7 +33,6 @@
 		<br />
 		<p class="texto margen">
 		"TE DAMOS LA BIENVENIDA A ESTE ESPACIO DEDICADO A CONSENTIRTE Y CONSENTIR A ESA PERSONA ESPECIAL PARA TI", esta pagina nace de tomar un delicioso y rico cafe con las amigas y preguntandonos porque nos olvidamos de esos detatalles que hacen la diferencia en tu cumpleaños, o aniversario o que tal en un dia comun donde solo queremos ser SORPRENDIDOS... por eso te dedicamos esta pagina que hace que seas diferente porque el <b>DETALLE SIEMPRE CUENTA</b>.
-		
 		</p>
 	</article> 
 	</section>
