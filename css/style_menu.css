@@ -1,0 +1,67 @@
+/*Hoja de estilo para el menú de Pink Street*/
+
+/*@font-face {
+	font-family: 'Lobster13Regular';
+	src: url('Lobster_1.3-webfont.eot');
+	src: url('Lobster_1.3-webfont.eot?#iefix') format('embedded-opentype'), url('Lobster_1.3-webfont.woff') format('woff'), url('Lobster_1.3-webfont.ttf') format('truetype'), url('Lobster_1.3-webfont.svg#Lobster13Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}*/
+
+@font-face {
+    font-family: 'CapsuulaRegular';
+    src: url('Capsuula-webfont.eot');
+    src: url('Capsuula-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Capsuula-webfont.woff') format('woff'),
+         url('Capsuula-webfont.ttf') format('truetype'),
+         url('Capsuula-webfont.svg#CapsuulaRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+ul#nav { /*define el estilo de la fuente del menú*/
+	/*font-family: EurostileExt-Normal, Palatino, Impact, cursive;*/
+	font-family: CapsuulaRegular;
+	width: 1800px;
+	margin-left: -50px;
+	text-align: center;
+	overflow: hidden;
+	font-size: 14px;
+	letter-spacing: 0px;
+	height: 45px;
+}
+ul#nav li {
+	float: left;
+	list-style: none;
+}
+ul#nav li a {
+	letter-spacing: 2px;
+	display: block;
+	width: 160px;
+	height: 53px;
+	padding: 14px 0 0 0; /*espacion del texto en la celada*/
+	margin: 0 32px 0 32px;
+	color: #FFFFFF; /*color de fuente antes de colocar el mouse*/
+	text-decoration: none;
+	background: url(../images/cinta_menu.png) 0 -149px no-repeat;
+	-webkit-transition: all .20s ease-out;
+	-moz-transition: all .20s ease-out;
+	-o-transition: all .20s ease-out;
+	-ms-transition: all .20s ease-out;
+	transition: all .20s ease-out;
+	border-bottom: 1px dotted #9c5959;
+}
+ul#nav li a:hover, ul#nav li .current {
+	background: url(../img/cinta_menu.png) 0 0 no-repeat;
+	color: #FFFFFF;/*color de fuente al colocar el mouse*/
+	-webkit-transition: all .20s ease-out;
+	-moz-transition: all .20s ease-out;
+	-o-transition: all .20s ease-out;
+	-ms-transition: all .20s ease-out;
+	transition: all .20s ease-out;
+	
+}
+
+
+
