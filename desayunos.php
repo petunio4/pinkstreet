@@ -7,6 +7,7 @@
 	<script type="text/javascript" src="js/modernizr.custom.68612.js"></script>
 	<link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
 	<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+	<link href="css/style_menu.css" rel="stylesheet" type="text/css" media="screen" />
 </head>
 <body>
 <div id="cuerpo">
@@ -50,6 +51,8 @@
 <br/>No incluye los globos, flores, tarjetas de decoración no incluidas en el costo.
 <br/> Alimentos varían dependiendo de la disponibilidad y de la temporada en la que nos encontremos en el año 
   <br/> <br/><b>UN DETALLE SIEMPRE CUENTA</b>. <br/>
+  <br />
+  <a href="pedido.php" target="_blank">Hacer Pedido</a>
 		
 		</p>
 	</article> 
