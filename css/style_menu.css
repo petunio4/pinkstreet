@@ -23,7 +23,7 @@
 ul#nav { /*define el estilo de la fuente del menú*/
 	/*font-family: EurostileExt-Normal, Palatino, Impact, cursive;*/
 	font-family: CapsuulaRegular;
-	width: 1800px;
+	width: 200px;
 	margin-left: -50px;
 	text-align: center;
 	overflow: hidden;
@@ -44,7 +44,7 @@ ul#nav li a {
 	margin: 0 32px 0 32px;
 	color: #FFFFFF; /*color de fuente antes de colocar el mouse*/
 	text-decoration: none;
-	background: url(../images/cinta_menu.png) 0 -149px no-repeat;
+	background: url(../img/cinta_menu.png) 0 -149px no-repeat;
 	-webkit-transition: all .20s ease-out;
 	-moz-transition: all .20s ease-out;
 	-o-transition: all .20s ease-out;
@@ -62,6 +62,3 @@ ul#nav li a:hover, ul#nav li .current {
 	transition: all .20s ease-out;
 	
 }
-
-
-

@@ -46,7 +46,6 @@ header,section,article,aside,footer{
 
 h1 {
 	font: 32pt Helvetica,"Helvetica neue", Arial, sans-serif;
-	background: url(../images/header-bg.png) center top no-repeat;
 	text-align: center;
 	text-transform: uppercase;
 	color: #e5b7ad;
