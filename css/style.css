@@ -121,7 +121,6 @@ section{
 	margin: 0 0 20px 0px;*/
 	border-left: 2px dotted #b2a497;
 	min-height: 480px;
-
 }
 
 article{
@@ -203,4 +202,31 @@ font-family: verdana, sans-serif;
 	font-size:14px;
 	text-align: justify;
 	color:#ca3474;/*color de fuente*/
+}
+
+.pedidos{
+	width: 100%;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section h3{
+	text-align: center;
+	font: 18pt Helvetica,"Helvetica neue", Arial, sans-serif;
+	color: #e5b7ad;
+}
+
+td label{
+	font-size: 14px;
+	font-weight: bold;
+	color: #cb3273;
+	line-height: 50px;
+	float: right;
+}
+
+table{
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
 }
