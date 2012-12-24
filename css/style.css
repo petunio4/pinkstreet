@@ -197,7 +197,7 @@ old_footer{
 
 }
 .texto{
-font-family: verdana, sans-serif;
+	font-family: verdana, sans-serif;
 	font-size:14px;
 	text-align: justify;
 	color:#ca3474;/*color de fuente*/
@@ -215,13 +215,11 @@ section h3{
 	font: 18pt Helvetica,"Helvetica neue", Arial, sans-serif;
 	color: #e5b7ad;
 }
-
-td label{
+fieldset label{
 	font-size: 14px;
-	font-weight: bold;
 	color: #cb3273;
-	line-height: 50px;
-	float: right;
+	line-height: 10px;
+	text-align: left;
 }
 
 table{
